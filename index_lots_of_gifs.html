@@ -1,0 +1,307 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+
+  <title>SmashingFive - Austin Hardware Meetup July 2014</title>
+
+  <meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+  <meta name="author" content="Hakim El Hattab">
+
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+  <link rel="stylesheet" href="css/reveal.min.css">
+  <!-- <link rel="stylesheet" href="css/theme/default.css" id="theme"> -->
+  <link rel="stylesheet" href="css/theme/beige.css" id="theme">
+  <link rel="stylesheet" href="austin-hardware-july-2014/css/style.css">
+
+  <!-- For syntax highlighting -->
+  <link rel="stylesheet" href="lib/css/zenburn.css">
+
+  <!-- If the query includes 'print-pdf', include the PDF print sheet -->
+  <script>
+  if( window.location.search.match( /print-pdf/gi ) ) {
+    var link = document.createElement( 'link' );
+    link.rel = 'stylesheet';
+    link.type = 'text/css';
+    link.href = 'css/print/pdf.css';
+    document.getElementsByTagName( 'head' )[0].appendChild( link );
+  }
+  </script>
+
+<!--[if lt IE 9]>
+<script src="lib/js/html5shiv.js"></script>
+<![endif]-->
+</head>
+
+<body><div class="reveal"><div class="slides">
+
+  <!-- Title Slide
+  ================================================== -->
+  <section>
+    <div class="title-text">
+      <h1>Smashing Five</h1>
+      <h3>Scoring High Fives With Arduino & Javascript</h3> 
+      <img class="img-circle" src="austin-hardware-july-2014/images/leopard.jpg">
+      <img class="img-circle" src="austin-hardware-july-2014/images/batman.jpg">
+      <img class="img-circle" src="austin-hardware-july-2014/images/pug.jpg">
+      <p>Christian Catalan</p>
+      <p class="twitter">@crcatala</p>
+      <!-- <p><img class="img-circle" src="austin-hardware-july-2014/images/batman.jpg"></p> -->
+      <div>
+      </section>
+
+  <!-- Trivia
+  ================================================== -->
+  <section>
+    <!-- <section data-background="austin-hardware-july-2014/images/dopamine.jpg" data-background-size="100%"> -->
+    <h2>How long ago...</h2>
+    <p><img src="austin-hardware-july-2014/images/high-five-origin.jpg" width="600px"></p>
+    <h2>...was the high five invented?</h2>
+  </section>
+
+  <!-- Why High Fives
+  ================================================== -->
+  <section>
+    <!-- <section data-background="austin-hardware-july-2014/images/dopamine.jpg" data-background-size="100%"> -->
+    <h2>Why High Five?</h2>
+    <!-- <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/> -->
+    <p><img src="austin-hardware-july-2014/images/dopamine.jpg" width="500px"></p>
+    <p>Increases Dopamine and Oxytocin levels</p>
+    <p>Be less awkward</p>
+  </section>
+
+  <!-- GIF: Hockey managers struggling
+  ================================================== -->
+  <section>
+    <h2>Turn this...</h2>
+    <p><img class="large-gif" src ="austin-hardware-july-2014/images/gifs/hockey-managers.gif"></p>
+  </section>
+
+  <!-- GIF: Barney Stinson
+  ================================================== -->
+  <section>
+    <h2>Into This</h2>
+    <p><img class="large-gif" src ="austin-hardware-july-2014/images/gifs/barney-stinson.gif"></p>
+    <p></p>
+  </section>
+
+  <!-- Arduino Has Arrived
+  ================================================== -->
+  <!-- <section> -->
+  <section data-background="#007777">
+    <h2>Arduino has arrived</h2>
+    <img src ="austin-hardware-july-2014/images/me-arduino-01.jpg" height="550px">
+    <!-- <p>Arduino has arrived</p> -->
+  </section>
+
+  <!-- Arduino Sensors / Hardware
+  ================================================== -->
+  <!-- <section> -->
+  <section data-background="#007777">
+    <h2>Three Sensors</h2>
+    <img class="img-small" src ="austin-hardware-july-2014/images/accelerometer02.jpg">
+    <img class="img-small" src ="austin-hardware-july-2014/images/fsr.jpg">
+    <img class="img-small" src ="austin-hardware-july-2014/images/fsr.jpg"> 
+  </section>
+
+  <!-- First week Photos
+  ================================================== -->
+  <!-- <section> -->
+  <section data-background="#007777">
+    <h2>First Week</h2>
+    <img class="img-small" src ="austin-hardware-july-2014/images/camera/swivel-stand.jpg">
+    <img class="img-small" src ="austin-hardware-july-2014/images/camera/wires-01.jpg">
+    <img class="img-small" src ="austin-hardware-july-2014/images/camera/test-fsr-01.jpg">
+    <img class="img-small" src ="austin-hardware-july-2014/images/camera/test-fsr-02.jpg">
+    <img class="img-small" src ="austin-hardware-july-2014/images/camera/charting-01.jpg">
+  </section>
+
+  <!-- V1.0 Power Glove
+  ================================================== -->
+  <!-- <section> -->
+  <!-- <section data-transition="linear" data-background="#4d7e65"> -->
+  <section data-background="#007777">
+    <p><img src ="austin-hardware-july-2014/images/nailed-it.jpg" width="1000px"></p>
+  </section>
+
+  <!-- App Diagram - Before
+  ================================================== -->
+  <section>
+    <p><img class="no-border" src ="austin-hardware-july-2014/images/diagram-before.png" width="1000px"></p>
+  </section>
+
+  <!-- App Diagram - Before
+  ================================================== -->
+  <section>
+    <p><img class="no-border" src ="austin-hardware-july-2014/images/diagram-after.png" width="1000px"></p>
+  </section>
+
+  <!-- Next iteration Photos
+  ================================================== -->
+  <!-- <section> -->
+  <section data-background="#007777">
+    <h2>Crafting A better glove</h2>
+    <img class="img-small" src ="austin-hardware-july-2014/images/camera/sensors-wired-up.jpg">
+    <img class="img-small" src ="austin-hardware-july-2014/images/camera/network-jack.jpg">
+    <img class="img-small" src ="austin-hardware-july-2014/images/camera/new-glove-deconstructed.jpg">
+    <img class="img-small" src ="austin-hardware-july-2014/images/camera/inside-glove.jpg">
+    <img class="img-small" src ="austin-hardware-july-2014/images/camera/lunch-box.jpg">
+  </section>
+
+  <!-- Modeling Final POwer Glove
+  ================================================== -->
+  <section data-background="austin-hardware-july-2014/images/camera/modeling-glove.jpg" data-background-size="100%">
+    <!-- <br/><br/><br/><br/><br/><br/><br/> -->
+    <div>
+      <!-- <h2 class="childs-play">Everything Else is Child's Play</h2> -->
+      <h2 class="childs-play">Everything Else is Child's Play</h2>
+    </div>
+  </section>
+
+  <!-- Refinements
+  ================================================== -->
+  <section>
+    <h2>What's Next</h2>    
+    <!-- <ul> -->
+      <!-- <li>Increase resolution of data collection</li> -->
+      <!-- <li>Heatmap Visualization of Score</li> -->
+      <!-- <li>Scoring two gloves simultaneously</li> -->
+      <!-- <li>Exploring other data persistence options</li> -->
+      <!-- <li>Experiment: Does looking at elbow really work?</li> -->
+    <!-- </ul> -->
+    <p>Increase resolution of data collection</p>
+    <p>Heatmap Visualization of Score</p>
+    <p>Experiment: Does looking at elbow really work?</p>
+    <p><img src ="austin-hardware-july-2014/images/high-five-elbow.jpg" width="400px"></p>
+  </section>
+
+  <!-- Tech Stack
+  ================================================== -->
+  <section>
+    <!-- <section data-background="#1d86af"> -->
+    <h2>Tech Stack (Includes Sewing)</h2>
+    <!-- <h2>Tech Stack</h2> -->
+    <!-- <h2>So much javascript</h2> -->
+    <img class="img-logo" src ="austin-hardware-july-2014/images/nodejs-logo.png">
+    <img class="img-logo" src ="austin-hardware-july-2014/images/express-logo.png">
+    <img class="img-logo" src ="austin-hardware-july-2014/images/arduino-logo.png">
+    <img class="img-logo" src ="austin-hardware-july-2014/images/socketio-logo.png">
+    <img class="img-logo" src ="austin-hardware-july-2014/images/underscore-logo.png">
+    <img class="img-logo" src ="austin-hardware-july-2014/images/firebase-logo.png">
+    <img class="img-logo" src ="austin-hardware-july-2014/images/skeleton-logo.png">
+    <img class="img-logo" src ="austin-hardware-july-2014/images/highcharts-logo.png">
+    <img class="img-logo" src ="austin-hardware-july-2014/images/jquery-logo.png">
+    <img class="img-logo" src ="austin-hardware-july-2014/images/sewing-01.jpg">
+    <img class="img-logo" src ="austin-hardware-july-2014/images/power-glove02.jpg">
+  </section>
+  
+  <!-- Ending / Thank-you
+  ================================================== -->
+  <section>
+    <h1>Thank You</h1>
+    <p><img src ="austin-hardware-july-2014/images/gifs/tina-fey.gif"></p>
+    <h3>Matt Land</h3>
+    <!-- <h3>MakerSquare</h3> -->
+    <!-- <p><img src="austin-hardware-july-2014/images/makersquare-logo-solo.jpg" width="100px"></p> -->
+    <p><img class="makersquare-logo" src="austin-hardware-july-2014/images/makersquare-logo.jpg" height="100px">
+      <img class="makersquare-logo" src="austin-hardware-july-2014/images/sparefoot-logo.png" height="100px"></p>
+    </section>
+
+  <!-- More High Five GIFs
+  ================================================== -->
+  <section>
+    <h1>More High Five GIFs</h1>
+  </section>
+
+  <!-- GIF: High Fiving a Street sign
+  ================================================== -->
+  <section>
+    <p><img class="large-gif" src ="austin-hardware-july-2014/images/gifs/high-five-sign.gif"></p>
+    <p></p>
+  </section>
+
+  <!-- GIF: High five with cat
+  ================================================== -->
+  <section>
+    <p><img class="large-gif" src ="austin-hardware-july-2014/images/gifs/high-five-with-cat.gif"></p>
+    <p></p>
+  </section>
+
+  <!-- GIF: Office Prank
+  ================================================== -->
+  <!-- <section> -->
+  <!-- <section data-transition="linear" data-background="#4d7e65" data-background-transition="slide"> -->
+  <section data-transition="linear" data-background="#8c4738" >
+
+    <h2>Running into problems</h2>
+    <p><img class="large-gif" src ="austin-hardware-july-2014/images/gifs/office-prank.gif"></p>
+    <p></p>
+  </section>
+
+  <!-- GIF: News Reporter left hanging
+  ================================================== -->
+  <section>
+    <!-- <section data-background="#90a389"> -->
+    <p><img class="large-gif" src ="austin-hardware-july-2014/images/gifs/news-reporter-fail.gif"></p>
+  </section>
+
+  <!-- GIF: Oscar Letdown
+  ================================================== -->
+  <section>
+    <p><img class="large-gif" src ="austin-hardware-july-2014/images/gifs/oscar-letdown.gif"></p>
+    <p></p>
+  </section>
+
+  <!-- GIF: Teenager Apathetic
+  ================================================== -->
+  <section>
+    <p><img class="large-gif" src ="austin-hardware-july-2014/images/gifs/teenager-apathetic.gif"></p>
+    <p></p>
+  </section>
+
+</div></div> <!-- End reveal/slides container -->
+
+  <!-- Vendor Javascripts
+  ================================================== -->
+  <script src="lib/js/head.min.js"></script>
+  <script src="js/reveal.min.js"></script>
+
+  <!-- Reveal.js Configuration
+  ================================================== -->
+  <script>
+
+  // Full list of configuration options available here:
+  // https://github.com/hakimel/reveal.js#configuration
+  Reveal.initialize({
+    controls: true,
+    progress: true,
+    history: true,
+    center: true,
+
+    theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+    transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+
+    // Parallax scrolling
+    // parallaxBackgroundImage: 'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg',
+    // parallaxBackgroundSize: '2100px 900px',
+
+    // Optional libraries used to extend on reveal.js
+    dependencies: [
+    { src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+    { src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+    { src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+    { src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+    { src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+    { src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+    ]
+  });
+
+</script>
+
+</body>
+</html>
